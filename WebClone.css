@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url(https://fonts.google.com/specimen/Poppins);
+}
+h1 {
+  font-weight: lighter;
+}
+
+p {
+  font-weight: 200;
+}
+
+#reliable-delivery {
+  font-weight: lighter;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 98%);
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  justify-content: space-around;
+}
+
+.icon {
+  transform: translate(100px, 2px);
+}
+
+#intro {
+  width: 100%;
+  flex-direction: column;
+  font-family: "Poppins";
+  align-items: center;
+  text-align: center;
+  display: flex;
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+#intro-text {
+  max-width: 300px;
+}
+
+#card1 {
+  background-color: white;
+  border-top-style: solid;
+  text-align: center;
+  max-width: 300px;
+  max-height: 300px;
+  padding-left: 10px;
+  box-shadow: 10px 10px 10px hsl(229deg, 6%, 66%);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border-top-color: hsl(180deg, 62%, 55%);
+}
+
+#card2 {
+  background-color: white;
+  border-top-style: solid;
+  text-align: center;
+  max-width: 300px;
+  max-height: 300px;
+  padding-left: 10px;
+  box-shadow: 10px 10px 10px hsl(229deg, 6%, 66%);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border-top-color: hsl(0deg, 78%, 62%);
+  margin-bottom: 10px;
+}
+
+#card3 {
+  border-top-color: hsl(34deg, 97%, 64%);
+  background-color: white;
+  border-top-style: solid;
+  text-align: center;
+  max-width: 300px;
+  max-height: 300px;
+  padding-left: 10px;
+  box-shadow: 10px 10px 10px hsl(229deg, 6%, 66%);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#card4 {
+  border-top-color: hsl(212deg, 86%, 64%);
+  background-color: white;
+  border-top-style: solid;
+  text-align: center;
+  max-width: 300px;
+  max-height: 300px;
+  padding-left: 10px;
+  box-shadow: 10px 10px 10px hsl(229deg, 6%, 66%);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=WebClone.css.map */
